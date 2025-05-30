@@ -1,12 +1,66 @@
-# React + Vite
+📍 **E-Sarthee – Real-Time Vehicle Location Tracking Website**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-Sarthi is a real-time location tracking platform built to display the live location of the Vans operating in the NIT Warangal Campus. It offers a smooth and interactive user interface to track live locations and view status updates of multiple drivers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 **Live Demo**  
+👉 [Visit E-Sarthi Live](https://e-sarthee-purushs-projects-c484017a.vercel.app/) 
 
-## Expanding the ESLint configuration
+📸 **Preview**  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+🚀 **Features**
+🛰️ Real-time vehicle location tracking on Google Maps  
+👨‍👩‍👧‍👦 Separate panels for Admin (location sender) and Viewer (location receiver)  
+📍 Background location updates even when the screen is off  
+🗺️ Google Maps integration with marker animation and info cards  
+📤 Send and stop location buttons for manual control  
+🔗 Real-time data sync via WebSocket (Socket.IO)  
+📱 Fully responsive and mobile-friendly design  
+
+---
+
+🛠️ **Tech Stack**
+
+**Frontend:**  
+- React.js  
+- Google Maps API  
+- JSX, Custom CSS  
+- WebSocket (via `socket.io-client`)  
+
+**Backend:**  
+- Node.js  
+- Express.js  
+- MongoDB (for storing latest location)  
+- WebSocket (via `socket.io`)  
+
+**Admin Android App:**  
+- Built in Kotlin  
+- Background location services  
+- Sends data to backend via HTTP or WebSocket  
+
+---
+
+💡 **Key Concepts Used**
+
+- React Hooks (`useState`, `useEffect`, `useRef`)  
+- Vite for faster development  
+- REST APIs and WebSocket integration  
+- Geolocation and background services in Android  
+- Modular component structure for clean codebase  
+
+---
+
+🙋‍♂️ **Author**  
+Made with ❤️ by **Purushottam Gurjar**  
+🔗 GitHub: [https://github.com/PurushottamGurjar](https://github.com/PurushottamGurjar)  
+🔗 LinkedIn: [https://linkedin.com/in/purushottam-gurjar](https://linkedin.com/in/purushottam-gurjar)
+
+---
+
+📌 **License**  
+This project is open-source and available under the [MIT License](LICENSE).
+
