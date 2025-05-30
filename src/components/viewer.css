@@ -1,0 +1,113 @@
+.viewer-panel{
+     background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nitw-logo-img {
+  width: 100%;
+  margin-top: 80px;
+  height: auto;
+}
+.tracking-text {
+  color: white;
+}
+.short-tracking-text {
+  font-size: 23px;
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+.long-tracking-text {
+  font-size: 23px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tracking-text {
+  background-color: rgb(55, 27, 58);
+}
+.info-text{
+     font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 800px) {
+  .long-tracking-text {
+    display: none;
+  }
+  .nitw-logo-img{
+    margin-top: 80px;
+  }
+}
+@media (min-width: 800px) {
+  .short-tracking-text {
+    display: none;
+  }
+  .nitw-logo-img{
+    margin-top: 46px;
+  }
+}
+@media (min-width: 1000px) {
+  .long-tracking-text {
+    font-size: 30px;
+  }
+}
+
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   font-family: 'Arial', sans-serif;
+  background: linear-gradient(
+    99deg,
+    rgba(66, 201, 134, 0.6) 0%,
+    rgba(0, 212, 255, 0.8) 100%
+  );
+  padding: 3px;
+
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  width: 100%;
+  margin-top: 1px;
+  color:Black;
+  box-sizing: border-box;
+}
+
+.iframe-container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(68, 172, 153);; */
+  margin: 1px 0; /* Reduced margin */
+}
+
+iframe {
+  /* width: 98%; */
+  /* max-width: 800px; */
+  width:98%;
+  height: 540px; /* Adjusted height slightly */
+  margin-bottom: 1px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+}
+.van-number{
+    font-size:25px;
+    margin-top: 2px;
+    font-weight: 500;
+    color:rgb(96, 2, 247);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 6px 0; /* Reduced padding */
+  margin-top: 15px; /* Reduced margin */
+}
+
+.info-text{
+    font-size:20px;
+    text-align:center;
+     font-family: 'Arial', sans-serif;
+}
