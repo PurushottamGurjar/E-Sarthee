@@ -9,13 +9,13 @@ E-Sarthi is a real-time location tracking platform built to display the live loc
 
 📸 **Preview**  
 
+![E-Sarthee3](https://github.com/user-attachments/assets/b0420f79-6ee4-4b48-afa9-3b4e06b19af3)
 
 ---
 
 🚀 **Features**
 🛰️ Real-time vehicle location tracking on Google Maps  
 👨‍👩‍👧‍👦 Separate panels for Admin (location sender) and Viewer (location receiver)  
-📍 Background location updates even when the screen is off  
 🗺️ Google Maps integration with marker animation and info cards  
 📤 Send and stop location buttons for manual control  
 🔗 Real-time data sync via WebSocket (Socket.IO)  
@@ -39,7 +39,6 @@ E-Sarthi is a real-time location tracking platform built to display the live loc
 
 **Admin Android App:**  
 - Built in Kotlin  
-- Background location services  
 - Sends data to backend via HTTP or WebSocket  
 
 ---
