@@ -5,7 +5,7 @@ E-Sarthi is a real-time location tracking platform built to display the live loc
 ---
 
 🚀 **Live Demo**  
-👉 [Visit E-Sarthi Live](https://purush-purjar-e-sarthee.vercel.app/) 
+👉 [Visit E-Sarthi Live](https://purushottam-gurjar-e-sarthee.vercel.app/) 
 
 📸 **Preview**  
 
