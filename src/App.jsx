@@ -30,7 +30,8 @@ function App() {
     </div>
      <div className="nav-second">
           <a  href="#" className="nav-content" target=''><p className="selected">E-Sarthee</p></a>
-          <a  href="https://p-tunes-purush-gurjar.vercel.app/" className="nav-content" target='_blank'>About me</a>
+          <a  href="https://p-tunes-purush-gurjar.vercel.app/" className="nav-content" target='_blank'>About</a>
+          <a  href="https://contact-purushottam-gurjar.vercel.app/" className="nav-content" target='_blank'>Contact</a>
           <a  href="https://p-tunes-purush-gurjar.vercel.app/" className="nav-content" target='_blank'>P-Tunes</a>
      </div>
 
